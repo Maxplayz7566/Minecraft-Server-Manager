@@ -6,13 +6,12 @@ A tool designed to help you easily manage multiple self-hosted Minecraft servers
 
 ## Features
 
-- Easily manage multiple Minecraft servers
-- Gui application for desktop enviroments
-- Low memory usage
-- Supports lots of servers
-- Simple configuration of server properties
-- Ability to specify custom `.jar` files
-- Track server statuses and ports
+- [x] Easily manage multiple Minecraft servers
+- [x] Gui application for desktop enviroments
+- [x] Low memory usage
+- [ ] Simple configuration of server properties
+- [ ] Ability to specify custom `.jar` files
+- [ ] Track server statuses and ports
 
 ## Prerequisites
 
