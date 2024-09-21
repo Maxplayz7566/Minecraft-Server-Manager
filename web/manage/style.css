@@ -1,0 +1,9 @@
+#noserverselected {
+    color: #2b2d42;
+    font-family: system-ui;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: calc(100% - (64px * 2));
+}

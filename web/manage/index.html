@@ -36,14 +36,16 @@
                 <a href="/manage/index.html" id="selected">Manage</a>
             </div>
         </nav>
+
+        
     </body>
 
     <script>
         const hash = window.location.hash.substring(1);
 
         if (!hash) {
-            alert('No server selected!')
-            window.location.href = '/servers/index.html'
+            document.body.innerHTML += `<h1 id="noserverselected">Oops! No server selected. Right-click a server from the list, then click 'Manage Server' to proceed.</h1>`
+            document.body.style.overflowY = 'hidden'
         }
     </script>
 </html>

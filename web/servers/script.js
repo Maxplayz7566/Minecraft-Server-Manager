@@ -193,6 +193,10 @@ function renameserverprompt(id) {
     </div>`
 }
 
+serverContent.addEventListener('click', (event) => {
+    window.location.href = `/manage/index.html#${event.target.getAttribute("server")}`
+})
+
 serverContent.addEventListener("contextmenu", (event) => {
     event.preventDefault();
     console.log("Right click detected on", event.target);
@@ -203,7 +207,7 @@ serverContent.addEventListener("contextmenu", (event) => {
         "server"
     )}')"><label class="material-symbols-rounded">edit</label>Rename server</button>
     
-    <button id="managerserverbttn" onclick="alert('manage')"><label class="material-symbols-rounded">settings</label>Manage server</button>
+    <button id="managerserverbttn" onclick="window.location.href = '/manage/index.html#${event.target.getAttribute("server")}'"><label class="material-symbols-rounded">settings</label>Manage server</button>
 
     <button id="delserverbttn" onclick="deleteserverpropmpt('${event.target.getAttribute(
         "server"

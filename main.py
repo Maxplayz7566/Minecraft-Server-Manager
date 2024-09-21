@@ -1,14 +1,11 @@
 import os
 import sqlite3
 
-import requests
 import webview
 from flask import Flask, send_from_directory, abort, request, jsonify
 from flask_socketio import SocketIO
 import kthread
 import psutil
-
-import serverjars
 
 app = Flask(__name__)
 socketio = SocketIO(app, cors_allowed_origins="*")
