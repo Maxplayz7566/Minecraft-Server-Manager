@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="/res/navbar.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+        <script src="/res/sharedcode.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        
+        <style>
+            .material-symbols-rounded {
+              font-variation-settings:
+              'FILL' 0,
+              'wght' 900,
+              'GRAD' 1,
+              'opsz' 48
+            }
+        </style>
+    </head>
+    <body>
+        <nav id="topnav">
+            <img
+                src="/res/logo.png"
+                alt="Logo"
+                id="navlogo"
+                onclick="window.location.href = '/index.html'"
+            />
+
+            <div id="nav-items">
+                <a href="/index.html">Home</a>
+                <a href="/servers/index.html" id="selected">Servers</a>
+                <a href="/manage/index.html">Manage</a>
+            </div>
+        </nav>
+
+        <div id="content">
+            <list id="servers">
+                <a id="addserver" onclick="addserverprompt()">
+                    <label id="newicon" class="material-symbols-rounded">add</label>
+                    <label id="newname">Create a new server</label>
+                </a>
+
+                <div id="servercontent">
+                    <!--<a id="server">
+                        <label id="servericon" class="material-symbols-rounded">dns</label>
+                        <label id="servername">Skywars server</label>
+                        <label id="serverid">#0</label>
+                    </a>-->
+                </div>
+            </list>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

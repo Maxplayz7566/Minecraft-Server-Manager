@@ -1,0 +1,107 @@
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 128px);
+    margin: 0;
+}
+
+#servers {
+    display: flex;
+    flex-direction: column;
+    background-color: #2b2d42;
+    width: fit-content;
+    padding: 25px;
+    border-radius: 8px;
+    height: 50%;
+    width: 45%;
+    gap: 5px;
+    overflow-y: auto;
+}
+
+#servers a {
+    background-color: #2b2d42;
+    color: white;
+    font-family: system-ui;
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    text-underline-offset: -123213123px;
+    padding: 15px;
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+}
+
+#server:hover {
+    background-color: #202231;
+}
+
+#addserver:hover {
+    background-color: #bde363;
+    color: #202231;
+}
+
+#serverid {
+    color: #bde363;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#servername { 
+    margin-left: 15px;
+}
+
+#servericon,
+#servername,
+#serverid,
+#newicon,
+#newname {
+    cursor: pointer;
+}
+
+#delserverbttn {
+    font-family: system-ui;
+    color: white;
+    background-color: #ef233c;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+}
+
+#delserverbttn * {
+    cursor: pointer;
+}
+
+#delserverbttn:hover {
+    background-color: #D90429;
+}
+
+#renameserverbttn, #managerserverbttn {
+    font-family: system-ui;
+    color: white;
+    background-color: #2c2c2c;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+} 
+
+#renameserverbttn *, #managerserverbttn * {
+    cursor: pointer;
+}
+
+#renameserverbttn:hover, #managerserverbttn:hover {
+    background-color: #272727;
+}

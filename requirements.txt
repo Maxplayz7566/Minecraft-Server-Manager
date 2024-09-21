@@ -1,0 +1,5 @@
+flask_socketio
+flask
+pywebview
+kthread
+psutil
