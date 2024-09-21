@@ -14,8 +14,6 @@ A tool designed to help you easily manage multiple self-hosted Minecraft servers
 - Ability to specify custom `.jar` files
 - Track server statuses and ports
 
-## Getting Started
-
 ### Prerequisites
 
 - Java 8 or higher
