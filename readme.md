@@ -6,7 +6,7 @@ A tool designed to help you easily manage multiple self-hosted Minecraft servers
 
 ## Features
 
-- [x] Easily manage multiple Minecraft servers
+- [ ] Easily manage multiple Minecraft servers
 - [x] Gui application for desktop enviroments
 - [x] Low memory usage
 - [ ] Simple configuration of server properties
