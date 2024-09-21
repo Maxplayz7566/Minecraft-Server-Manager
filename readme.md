@@ -30,7 +30,7 @@ A tool designed to help you easily manage multiple self-hosted Minecraft servers
    
     ```bash
     python3 -m venv .venv
-    source .venv/bin/activate
+    source .venv/Scripts/activate
     ```
 3. Installing packages:
     ```bash
