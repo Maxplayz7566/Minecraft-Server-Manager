@@ -17,3 +17,26 @@ A tool designed to help you easily manage multiple self-hosted Minecraft servers
 
 - Java 8 or higher
 - Python
+
+## Getting started
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Maxplayz7566/Minecraft-Server-Manager.git
+    cd Minecraft-Server-Manager
+    ```
+2. Creating venv: 
+    > **Note:** *This is only required by linux*
+   
+    ```bash
+    python3 -m venv .venv
+    source .venv/bin/activate
+    ```
+3. Installing packages:
+    ```bash
+   pip install -r requirements.txt
+   ```
+4. Running:
+    ```bash
+   python3 main.py
+    ```
